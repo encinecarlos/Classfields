@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="NewFolder\" />
-    <Folder Include="Services\" />
+    <PackageReference Include="FluentValidation" Version="9.0.1" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="9.0.1" />
   </ItemGroup>
 
 </Project>

@@ -10,10 +10,10 @@ namespace Classfields.Business.Models
         }
 
         //public int Id { get; set; }
-        public int UserId { get; set; }
+        public Guid UserId { get; set; }
         public User User { get; set; }
         public string Name { get; set; }
-        public string Age { get; set; }
+        public int Age { get; set; }
         public string Email { get; set; }
         public string Ethnicity { get; set; }
         public string Eyes { get; set; }
@@ -21,7 +21,7 @@ namespace Classfields.Business.Models
         public string Gender { get; set; }
         public string Height { get; set; }
         public string Hips { get; set; }
-        public string Hair_Color { get; set; }
+        public string HairColor { get; set; }
         public int Incall { get; set; }
         public int Outcall { get; set; }
         public string Affiliation { get; set; }

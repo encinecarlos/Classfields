@@ -4,8 +4,10 @@ using Classfields.Business.Models;
 
 namespace Classfields.Business.Interfaces
 {
-    public interface IUserRepository : IRepository<User>
+    public interface IUserService
     {
-        Task<User> GetUserPosts(Guid Id);
+        Task Add(User user);
+        Task Update(User user);
+        Task Destroy(Guid id);
     }
 }

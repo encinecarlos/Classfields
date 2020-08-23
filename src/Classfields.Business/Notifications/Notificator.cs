@@ -4,7 +4,7 @@ using Classfields.Business.Interfaces;
 
 namespace Classfields.Business.Notifications
 {
-    public class Notificator : Inotificator
+    public class Notificator : INotificator
     {
         private readonly List<Notification> _notifications;
 
