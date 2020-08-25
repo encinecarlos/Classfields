@@ -9,6 +9,6 @@ namespace Classfields.Business.Models
         public string Password { get; set; }
         public string Role { get; set; }
         public bool Verified { get; set; }
-        public IEnumerable<Post> Post { get; set; }
+        public Post Post { get; set; }
     }
 }
